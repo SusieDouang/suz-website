@@ -1,18 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
-import { AppComponent } from './app.component';
+import { SuzComponent } from './suzwebsite/suz.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    SuzComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [SuzComponent]
 })
 export class AppModule { }
